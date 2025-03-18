@@ -36,9 +36,9 @@ export const App = () => {
   };
 
   const getLastId = (): number => {
-    const IdArr: number[] = todos.map((todo: Todo) => todo.id);
+    const IDArray: number[] = todos.map((todo: Todo) => todo.id);
 
-    return Math.max(...IdArr);
+    return Math.max(...IDArray);
   };
 
   const createNewTodo = (
